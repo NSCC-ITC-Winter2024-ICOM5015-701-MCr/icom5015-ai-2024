@@ -2,9 +2,9 @@
 
 This document provides an overview of the technologies used in FarmData2, describes the roles that they play and provides resources for learning the essentials of each.
 
-Interacting with FarmData2 requires a basic familiarity with git and GitHub. FarmData2 development uses a fairly standard web technology stack including HTML, CSS, Bootstrap, JavaScript, and Vue.js. The front-end accesses FarmData2 data through the [FarmOS API](https://farmos.org/development/api/) using the [Axios](https://github.com/axios/axios) library. End-to-end testing is done using the [Cypress framework](https://www.cypress.io/). The automation, configuration and back-end development of FarmData2 use a number of other technologies including Drupal, drush, FarmOS, Docker, docker-compose and bash scripting.
+Interacting with FarmData2 requires a basic familiarity with git and GitHub. FarmData2 development uses a fairly standard web technology stack including HTML, CSS, Bootstrap, JavaScript, and Vue.js. The front-end accesses FarmData2 data through the [FarmOS API](https://farmos.org/development/api/) using the [Axios](https://github.com/axios/axios) library. End-to-end testing is done using the [cypres frameworks](https://www.cypres.io/). The automation, configuration and back-end development of FarmData2 use a number of other technologies including Drupal, drush, FarmOS, Docker, docker-compose and bash scripting.
 
-This document is intended to be used in two ways. When you are new to FarmData2, it is recommended that you work through this document from the top down. However, it is not essential that you fully master every tool and technology on the first pass. Rather once you feel basically comfortable with a tool or technology (or if you already know it) skip to the next one.  Then later, while working on FarmData2 you can return to this document and jump directly to the relevant section(s) to find a reference or to learn a little bit more as needed.
+This document is intended to be used in two ways. When you are new to FarmData2, it is recommended that you works through this document from the top down. However, it is not essential that you fully master every tool and technology on the first pass. Rather once you feel basically comfortable with a tool or technology (or if you already know it) skip to the next one.  Then later, while worksing on FarmData2 you can return to this document and jump directly to the relevant section(s) to find a reference or to learn a little bit more as needed.
 
 ## Preliminaries ##
 
@@ -23,13 +23,13 @@ Connecting with the [FarmData2 community](https://farmdata2.zulipchat.com/) on Z
 
 ## Prerequisites ##
 
-The FarmData2 documentation and resources assume a basic facility with git, GitHub and a familiarity with the GitFlow branching workflow. You'll need to understand the steps outlined in the [FarmData2 Workflow](CONTRIBUTING.md#workflow).
+The FarmData2 documentation and resources assume a basic facility with git, GitHub and a familiarity with the GitFlow branching worksflow. You'll need to understand the steps outlined in the [FarmData2 worksflow](CONTRIBUTING.md#worksflow).
 
 The following resources can be useful for learning what you'll need to know about git and GitHub:
 
   - Resources:
     - [Hello World](https://guides.github.com/activities/hello-world/): A first introduction to GitHub that will get you started if you haven't used it before.
-    - [GitFlow Intro](https://guides.github.com/introduction/flow/): An introduction to an effective way of using GitHub (i.e. a _workflow_).  The followign two guides walk through how to work with existing open source projects and essentially follow GitFlow:
+    - [GitFlow Intro](https://guides.github.com/introduction/flow/): An introduction to an effective way of using GitHub (i.e. a _worksflow_).  The followign two guides walk through how to works with existing open source projects and essentially follow GitFlow:
       - [Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/)
       - [7 Steps to Get Started with Git](https://www.fosslife.org/7-steps-get-started-git).
     - [Git Immersion](https://gitimmersion.com/): A tutorial walks through a series of short hands-on exercises that provide practice with the key features of git.
@@ -37,13 +37,13 @@ The following resources can be useful for learning what you'll need to know abou
 
 ## Quickest Start ##
 
-FarmData2 makes use of the following key technologies. HTML, CSS and Bootstrap, JavaScript with Vue.js and Axios, and Cypress for testing. If you are familiar all or most of those it may be sufficient to start by having a look at any of the modules in [farmdata2_modules/fd2_tabs](https://github.com/DickinsonCollege/FarmData2/tree/main/farmdata2_modules/fd2_tabs). The [fd2_example/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) provides the essential information about how to add and test new FarmData2 features.
+FarmData2 makes use of the following key technologies. HTML, CSS and Bootstrap, JavaScript with Vue.js and Axios, and cypres for testing. If you are familiar all or most of those it may be sufficient to start by having a look at any of the modules in [farmdata2_modules/fd2_tabs](https://github.com/DickinsonCollege/FarmData2/tree/main/farmdata2_modules/fd2_tabs). The [fd2_example/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) provides the essential information about how to add and test new FarmData2 features.
 
 ## FarmData2 School ##
 
-FarmData2 has been used in a number of undergraduate computer science courses and activities have been developed to guide students through an introduction to FarmData2 and the technologies that it uses.  If you are new to open source and FarmData2 or to any of the technologies that FarmData2 uses, working through these activities will be an efficient way to get up to speed. If you are a more experienced developer you might just pick and choose from these activities, or skip over them completely to the more general resources in the sections below.
+FarmData2 has been used in a number of undergraduate computer science courses and activities have been developed to guide students through an introduction to FarmData2 and the technologies that it uses.  If you are new to open source and FarmData2 or to any of the technologies that FarmData2 uses, worksing through these activities will be an efficient way to get up to speed. If you are a more experienced developer you might just pick and choose from these activities, or skip over them completely to the more general resources in the sections below.
 
-The activities will guide you from an introduction to FOSS and FarmData2, through installation of FarmData2 and then through the use of each of the key technologies used in FarmData2. Each activity includes practice using the technologies within the context of FarmData2. Thus, you'll learn not only the technologies, but will get comfortable working within the FarmData2 developer environment as well.
+The activities will guide you from an introduction to FOSS and FarmData2, through installation of FarmData2 and then through the use of each of the key technologies used in FarmData2. Each activity includes practice using the technologies within the context of FarmData2. Thus, you'll learn not only the technologies, but will get comfortable worksing within the FarmData2 developer environment as well.
 
 If you use these activities, please keep in mind that they were created for use as assignments in courses. Thus, you shouldn't feel obligated to answer every question and you should skip over any class specific parts that don't make sense outside of a course. When you have completed all of the activities you'll be well on your way to being a FarmData2 developer.  In addition, while these activites will be updated as FarmData2 evolves, they may not be fully in synch with the latest code in the repository.  If you run in to any issues, use the 
 
@@ -55,13 +55,13 @@ If you use these activities, please keep in mind that they were created for use 
 - 06 - Web APIs Technology Spike [ [docx](media/Activities/06-WebAPIsSpike.docx) | [pdf](media/Activities/06-WebAPIsSpike.pdf) ]
 - 07 - FarmOS API Technology Spike [ [docx](media/Activities/07-FarmOSAPISpike.docx) | [pdf](media/Activities/07-FarmOSAPISpike.pdf) ]
 - 08 - Cascading Style Sheets and Bootstrap (in development)
-- 09 - Element Selectors and Cypress Testing (in development)
+- 09 - Element Selectors and cypres Testing (in development)
 
 ## Additional Resources ##
 
 ### Installation ###
 
-The [INSTALL.md](INSTALL.md) file contains the instructions for doing a [Developer Install](INSTALL.md#developer-install). After you complete the developer install FarmData2 will be setup and ready for you to work on.
+The [INSTALL.md](INSTALL.md) file contains the instructions for doing a [Developer Install](INSTALL.md#developer-install). After you complete the developer install FarmData2 will be setup and ready for you to works on.
 
 ### Editors ###
 
@@ -72,7 +72,7 @@ To access the Theia IDE once the [FarmData2 development environment is running](
 http://localhost:3000
 ```
 When the IDE opens:
-  1. Click "Open Workspace"
+  1. Click "Open worksspace"
   1. Select the `FarmData2` directory
   1. Click "Open"
 
@@ -89,10 +89,10 @@ The majority of development for FarmData2 is front-end (i.e. browser-based).  Th
 
 #### HTML ####
 
-[Hypertext Markup Language (HTML)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) is the base language that is used to create web pages. It defines the structure of a page and allows page _elements_ (e.g. headings, paragraphs, lists, images, etc.) to be _tagged_ and labeled with _attributes_. The way that an element is tagged and labeled allows the browser (with [CSS](#css)) to determine how the content of the element should be displayed. Elements and attributes also allow [JavaScript](#javascript), [Vue.js](#vue.js) and [Cypress](#cypress) to interact with the page style, structure and content.
+[Hypertext Markup Language (HTML)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) is the base language that is used to create web pages. It defines the structure of a page and allows page _elements_ (e.g. headings, paragraphs, lists, images, etc.) to be _tagged_ and labeled with _attributes_. The way that an element is tagged and labeled allows the browser (with [CSS](#css)) to determine how the content of the element should be displayed. Elements and attributes also allow [JavaScript](#javascript), [Vue.js](#vue.js) and [cypres](#cypres) to interact with the page style, structure and content.
 
   - Resources:
-    - [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): A great place to start if you have not worked with HTML before or want a refresher.
+    - [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): A great place to start if you have not worksed with HTML before or want a refresher.
     - [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form): An introduction to HTML forms, which FarmData2 uses to collect input from the user (e.g. plantings, harvests, search criteria, etc.)
     - [HTML Tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables): An introduction to creating tables in HTML, which FarmData2 uses to display many of the different reports that can be generated.
     - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML): A collection of guides and assessments that give a comprehensive introduction to HTML.
@@ -104,7 +104,7 @@ The majority of development for FarmData2 is front-end (i.e. browser-based).  Th
 
   - Resources:
     - [What is CSS?](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS): A (mostly) conceptual introduction to what CSS is and what it does.
-    - [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics): A great place to start if you have not worked with CSS before or want a refresher.
+    - [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics): A great place to start if you have not worksed with CSS before or want a refresher.
     - [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS): A collection of modules that give a comprehensive introduction to CSS.
     - [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference): A comprehensive reference to all of the CSS _properties_ and _values_.
 
@@ -113,7 +113,7 @@ The majority of development for FarmData2 is front-end (i.e. browser-based).  Th
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) is a programming language that can be used to add interactivity to HTML pages.  JavaScript can add or remove HTML elements, change CSS styles and respond to events (e.g. button clicks, text entry). JavaScript is also used to produce dynamic content by exchanging information with web services through Application Programming Interfaces (APIs). For example, when a user of FarmData2 saves or retrieves information about plantings or harvests it is done by JavaScript code using an API (see [FarmOS API](#farmos-api)).
 
   - Resources:
-    - [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics): A great place to start if you have not worked with JavaScript before or want a refresher.
+    - [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics): A great place to start if you have not worksed with JavaScript before or want a refresher.
     - [Strings](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings): An introduction to the way that strings are created and used in JavaScript.
     - [Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays): An introduction to the way that arrays are created and used in JavaScript.
     - [JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics): An introduction to the way that objects are created and used in JavaScript.
@@ -122,10 +122,10 @@ The majority of development for FarmData2 is front-end (i.e. browser-based).  Th
 
 #### Vue.js ####
 
-[Vue.js](https://vuejs.org/) is a JavaScript framework for simplifying the creation of interactive web applications. Creating highly interactive applications using HTML, CSS and JavaScript is possible, but some of the details become repetitive and tedious. Vue.js simplifies many of the common operations by allowing parts of the displayed page to be _bound_ to a data object.  In that way, when JavaScript code changes the data object the _view_ of that data displayed in the browser is automatically updated.
+[Vue.js](https://vuejs.org/) is a JavaScript frameworks for simplifying the creation of interactive web applications. Creating highly interactive applications using HTML, CSS and JavaScript is possible, but some of the details become repetitive and tedious. Vue.js simplifies many of the common operations by allowing parts of the displayed page to be _bound_ to a data object.  In that way, when JavaScript code changes the data object the _view_ of that data displayed in the browser is automatically updated.
 
   - Resources:
-    - [Vue.js Fundamentals](https://vueschool.io/courses/vuejs-fundamentals): A video based course and a great place to start if you have not worked with Vue.js before or want a refresher. Click the "Start Course" button.
+    - [Vue.js Fundamentals](https://vueschool.io/courses/vuejs-fundamentals): A video based course and a great place to start if you have not worksed with Vue.js before or want a refresher. Click the "Start Course" button.
     - [Vue.js Guide](https://vuejs.org/v2/guide): A textual introduction to using Vue.js.
     - [Vue.js Components](https://vueschool.io/courses/vuejs-components-fundamentals): A video based course that introduces the basics of Vue Components.
     - [Components Basics](https://github.com/DickinsonCollege/FarmData2/edit/main/ONBOARDING.md): A textual introduction to Vue Components.
@@ -136,7 +136,7 @@ The majority of development for FarmData2 is front-end (i.e. browser-based).  Th
 The FarmData2 front end exchanges data with the server using the [FarmOS API](https://farmos.org/development/api/). JavaScript code using the [Axios](https://github.com/axios/axios) library requests data from FarmOS (e.g. a list of fields) or sends new data to FarmOS (e.g. a new planting). When data is received from FarmOS, the Vue.js object is updated, which in turn updates what is displayed in the browser. Conversely, when the user enters data in the browser, that data updates the Vue.js object and that information is used to make requests to the server.
 
   - Resources:
-    - [What is an API and how does it work?](https://www.youtube.com/watch?v=Yzx7ihtCGBs): A video introduction to APIs with a few examples.This is a good place to start if you are new to APIs.
+    - [What is an API and how does it works?](https://www.youtube.com/watch?v=Yzx7ihtCGBs): A video introduction to APIs with a few examples.This is a good place to start if you are new to APIs.
     - [Using Axios to Consume APIs](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html): A short example of a `GET` request using Axios and Vue.js.
     - [Axios](https://github.com/axios/axios): Full documentation for the axios library. This show how to do both `GET` and `POST` requests.
     - [FarmOS API](https://farmos.org/development/api/): Documentation for the FarmOS API.
@@ -144,18 +144,18 @@ The FarmData2 front end exchanges data with the server using the [FarmOS API](ht
 
 #### Bootstrap ####
 
-[Bootstrap](https://getbootstrap.com/) is a framework and CSS component library used by farmOS, and thus by FarmData2, to provide stylized HTML components. Polished production FarmData2 modules will use Bootstrap components instead of basic html elements so that FarmData2 integrates visually into the farmOS interface.
+[Bootstrap](https://getbootstrap.com/) is a frameworks and CSS component library used by farmOS, and thus by FarmData2, to provide stylized HTML components. Polished production FarmData2 modules will use Bootstrap components instead of basic html elements so that FarmData2 integrates visually into the farmOS interface.
 
   - Resources:
-    - [Introduction to Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Comprehensive documentation for the Bootstrap framework.
+    - [Introduction to Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Comprehensive documentation for the Bootstrap frameworks.
 
-#### Cypress ####
+#### cypres ####
 
-The functionality of FarmData2 is tested using the [Cypress framework](https://www.cypress.io/). The tests in FarmData2 consist of end-to-end tests and component tests.  The end-to-end tests run against the developer instance of FarmData2 and check the functionality of the pages.  The component tests check the behavior of custom components that appear in FarmData2, in isolation from the runing instance. FarmData 2 provides support for running both types of Cypress tests in a Docker container that eliminates the need to install or configure Cypress. See the documentation in the [farmdata2_modules/fd2_tabs/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) file for information about runing Cypress tests in FarmData2. 
+The functionality of FarmData2 is tested using the [cypres frameworks](https://www.cypres.io/). The tests in FarmData2 consist of end-to-end tests and component tests.  The end-to-end tests run against the developer instance of FarmData2 and check the functionality of the pages.  The component tests check the behavior of custom components that appear in FarmData2, in isolation from the runing instance. FarmData 2 provides support for running both types of cypres tests in a Docker container that eliminates the need to install or configure cypres. See the documentation in the [farmdata2_modules/fd2_tabs/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) file for information about runing cypres tests in FarmData2. 
 
 ##### End-to-End Tests #####
 
-The Cypress end-to-end test framework works by controlling the web browser. A test typically consists of a series of steps that are automated by the Cypress tests, called _spec_s. A typical spec consist of the steps:
+The cypres end-to-end test frameworks workss by controlling the web browser. A test typically consists of a series of steps that are automated by the cypres tests, called _spec_s. A typical spec consist of the steps:
   1. Setup the test (e.g. login, prime the database)
   1. Visit a specific page
   1. Query the page for an _html element_ of interest (e.g. button, ext field)
@@ -163,28 +163,28 @@ The Cypress end-to-end test framework works by controlling the web browser. A te
   1. Make an assertion about the result (e.g. new information appears on the page)
 
   - Resources
-    - [Introduction to Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html): As the docs say... "the single most important guide for understanding how to test with Cypress. Read it. Understand it."
-    - [Writing Your First Test](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Add-a-test-file): A good overview of how a typical cypres test work, what the code looks like and how to use the cypress test runner.
-    - [Selecting Elements](https://docs.cypress.io/guides/references/best-practices.html#Selecting-Elements): Best practices for selecting elements that are manipulated and checked by your tests. Following these will make you tests less brittle.
-    - [Selector Playground](https://docs.cypress.io/guides/core-concepts/test-runner.html#Selector-Playground): A tool within the cypress test runner that will help you find good selectors to use for the elements used in your tests.
-    - [Interacting with Elements](https://docs.cypress.io/guides/core-concepts/interacting-with-elements): The main commands in cypress for interacting with elements in the page (e.g. click, select, etc.)
-    - [should](https://docs.cypress.io/api/commands/should.html#Syntax): Documentation for the `should` statement that is used to make assertions in cypress tests.
-    - [Assertions](https://docs.cypress.io/guides/references/assertions): A reference for all of the assertions (e.g. assertions and chainers for should) that can be used in cypress tests.
-    - [FarmData2 Cypress Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses Cypress tests.
+    - [Introduction to cypres](https://docs.cypres.io/guides/core-concepts/introduction-to-cypres.html): As the docs say... "the single most important guide for understanding how to test with cypres. Read it. Understand it."
+    - [Writing Your First Test](https://docs.cypres.io/guides/getting-started/writing-your-first-test.html#Add-a-test-file): A good overview of how a typical cypres test works, what the code looks like and how to use the cypres test runner.
+    - [Selecting Elements](https://docs.cypres.io/guides/references/best-practices.html#Selecting-Elements): Best practices for selecting elements that are manipulated and checked by your tests. Following these will make you tests less brittle.
+    - [Selector Playground](https://docs.cypres.io/guides/core-concepts/test-runner.html#Selector-Playground): A tool within the cypres test runner that will help you find good selectors to use for the elements used in your tests.
+    - [Interacting with Elements](https://docs.cypres.io/guides/core-concepts/interacting-with-elements): The main commands in cypres for interacting with elements in the page (e.g. click, select, etc.)
+    - [should](https://docs.cypres.io/api/commands/should.html#Syntax): Documentation for the `should` statement that is used to make assertions in cypres tests.
+    - [Assertions](https://docs.cypres.io/guides/references/assertions): A reference for all of the assertions (e.g. assertions and chainers for should) that can be used in cypres tests.
+    - [FarmData2 cypres Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses cypres tests.
 ##### Component Tests #####
 
-Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
-  1. Configuring and mounting the component into the test framework.
+cypres component tests works by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
+  1. Configuring and mounting the component into the test frameworks.
   1. Query the component for an _html element_ of interest (e.g. button, ext field)
   1. Interact with that element (e.g. click the button, enter some text)
   1. Make an assertion about the result (e.g. the component emits an event or changes state).
 
   - Resources:
-    - All of the Cypress resources above are also relevant here.
-    - [Component Testing](https://docs.cypress.io/guides/component-testing/introduction): An introduction to the component testing in Cypress. Note: With FarmData2 support you will not need to install or setup the component testing framework.
-    - [Vue Test Utils Guides](https://vue-test-utils.vuejs.org/guides): Cypress component testing is built on top of the Vue Test Utils. So all of their functionality is also available within a Cypress component test. The _Getting Started_, _Common Tips_, _Testing Key, Mouse and other DOM Events_ and _Testing Asynchronous Behavior_ sections are most relevant to FarmData2 testing.
+    - All of the cypres resources above are also relevant here.
+    - [Component Testing](https://docs.cypres.io/guides/component-testing/introduction): An introduction to the component testing in cypres. Note: With FarmData2 support you will not need to install or setup the component testing frameworks.
+    - [Vue Test Utils Guides](https://vue-test-utils.vuejs.org/guides): cypres component testing is built on top of the Vue Test Utils. So all of their functionality is also available within a cypres component test. The _Getting Started_, _Common Tips_, _Testing Key, Mouse and other DOM Events_ and _Testing Asynchronous Behavior_ sections are most relevant to FarmData2 testing.
     - [Vue Test Utils API](https://vue-test-utils.vuejs.org/api/): API documentation for all of the functionality of the Vue Test Utils.
-    - [FarmData2 Cypress Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses Cypress tests.
+    - [FarmData2 cypres Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses cypres tests.
 
 ### Project Automation ###
 
@@ -195,13 +195,13 @@ The developer install of FarmData2 relies on docker containers running:
    - an instance of MariaDB for data storage by farmOS and Drupal.
    - an instance of PHPmyAdmin to allow developers to interact directly with the MariaDB instance as necessary.
    - an instance of the TheiaIDE.
-   - an instance of the Cypress testing environment.
+   - an instance of the cypres testing environment.
 
 All of the docker related configuration and source files are found in the [docker](https://github.com/DickinsonCollege/FarmData2/tree/main/docker) directory.
 
 #### docker-compose ####
 
-FarmData2 uses docker-compose to build custom docker images for farmOS and the TheiaIDE containers and to start and network all of the containers.
+FarmData2 uses docker-compose to build custom docker images for farmOS and the TheiaIDE containers and to start and networks all of the containers.
 
 See the `docker-compose.yml` file in the [docker](https://github.com/DickinsonCollege/FarmData2/tree/main/docker) directory.
 
