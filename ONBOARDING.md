@@ -22,7 +22,7 @@ Connecting with the [FarmData2 community](https://farmdata2.zulipchat.com/) on Z
     - [User Documentation](https://zulip.com/help/): A comprehensive set of documentation on Zulip's use and features.
 
 ## Prerequisites ##
-
+  
 The FarmData2 documentation and resources assume a basic facility with git, GitHub and a familiarity with the GitFlow branching workflow. You'll need to understand the steps outlined in the [FarmData2 Workflow](CONTRIBUTING.md#workflow).
 
 The following resources can be useful for learning what you'll need to know about git and GitHub:
